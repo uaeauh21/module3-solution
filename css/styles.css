@@ -1,0 +1,169 @@
+/* 
+  #cb997e
+  #ddbea9
+  #ffe8d6
+  #b7b7a4
+  #a5a58d
+  #6b705c
+  #222
+
+  */
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-size: 16px;
+    color: #6b705c;
+    background-color: #fff;
+    font-family: 'Spartan', sans-serif;
+  }
+  
+
+  h2 {
+    font-family: 'Spartan', sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    
+  }
+
+  h3 {
+    font-family: 'Spartan', sans-serif;
+    font-size: 1em;
+    font-weight:600;
+    color: #6b705c;
+    
+  }
+
+  .center {
+    margin: auto;
+    padding: 10px;
+  }
+  
+  p{
+      text-align: left ;
+      padding: 10px;
+      font-size: .9em;
+      color: #222;
+      margin-bottom: 5px;
+  }
+  /** HEADER **/
+  #header-nav {
+    background-color: #6b705c;
+    border-radius: 0;
+    border: 0;
+    margin: 0px;
+
+  }
+
+  .center-align{
+      margin-left: 0;
+      margin-right: 0;
+      text-align: center;
+      width: 100%;
+  
+  }
+
+  .box-bg{
+    background-color:  #b7b7a4;
+    padding:10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right:0px;
+    border-radius: 10px;
+}
+
+.box-bg2{
+    background-color:  #b7b7a4;
+    padding:10px;
+    text-align: center;
+}
+
+.mt-1{
+    margin-top: 15px;
+}
+
+.mt-2{
+    margin-top: 35px;
+}
+
+
+.m-1 {
+    margin-left:10px;
+    margin-right: 10px;
+}
+  
+
+.m-2 {
+    margin-left:30px;
+    margin-right: 30px;
+}
+  
+
+  .navbar-brand {
+    padding-top: 20px;
+  }
+
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Spartan', sans-serif;
+    color: #ffe8d6;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    
+  }
+  
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  .navbar-brand p { /* Kosher cert */
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+  }
+  .navbar-brand p span { /* Star-K */
+    vertical-align: middle;
+  }
+
+  .mymenu {
+      background-color: #ffe8d6;
+      margin-top:0px;
+      text-align: center;
+  }
+
+  .mymenu li {
+    margin-top:1px ;
+    border-bottom: 1px solid #a5a58d;
+
+}
+
+
+.mymenu li a {
+    color: #222;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.mymenu li a:hover {
+    background-color: #b7b7a4;
+    font-weight: bold;
+    opacity: 1
+}
+
+
+.bg1 {
+    background-color: #222;
+}
+
+a {
+text-decoration: none;
+font-weight: 300;
+}
